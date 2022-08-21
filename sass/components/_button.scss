@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    min-width: 200px;
+    border: 2px solid transparent;
+    text-align: center;
+
+
+    background-color: var(--accent-color) ;
+    font-family: inherit;
+    border-radius: 6px;
+    padding: 11px 34px;
+
+}
+
+// .btn {
+//     width: 160px;
+//     height: 40px;
+//     @include font($fw:600,$fz:12px,$lh:1.2);
+//     // font-weight: 600;
+//     // font-size: 12px;
+//     // line-height: 1.2;
+//     // letter-spacing: normal;
+//     text-transform: uppercase;
+//     border: 1px solid orange;
+//     border-radius: 100px;
+//     background-color: transparent;
+//     &:hover,
+//     &:focus {
+//             background-color: var(--accent-color);
+//         }
+
+// }
+

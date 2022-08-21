@@ -1,0 +1,389 @@
+// .footer {
+
+
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+
+//     background-color: #2f303a;
+//     @media screen and (min-width: 768px) {
+//             margin-bottom: 0;
+//         }
+    
+//         @media screen and (min-width: 1200px) {
+//             display: block;
+//             text-align: start;
+//             margin-bottom: 0;
+//         }
+
+// }
+
+
+// .footer-content {
+ 
+// display: flex;
+//     align-items: baseline;
+
+
+//     @media screen and (min-width: 768px) {
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         justify-content: space-around;
+//         align-items: baseline;
+//     }
+
+
+// }
+
+
+// .footer-logo {
+//     @include font($fw:700,$fz:26px,$lh:1.19);
+//     display: block;
+//     margin-bottom: 20px;
+//     font-family: Raleway, sans-serif;
+    
+//     color: var(--accent-color);
+//     @media screen and(min-width: 320px) and(max-width: 768px) {
+//     @include font($fw:700, $fz: 24px, $lh:1.16);
+//     }
+// }
+
+// .footer-logo-link {
+//     color: var(--third-color-text);
+  
+// }
+// .footer-list{
+// @media screen and(min-width: 320px) and(max-width: 768px) {
+//         text-align: center;
+//     }
+// }
+
+// .footer-link-adress {
+//     @include font($lh:1.17);
+//     font-style: normal;
+//     color: var(--third-color-text);
+// text-transform: uppercase;
+   
+//     transition: color 250ms var(--timing-function);
+//     @media screen and(min-width: 320px) and(max-width: 480px) {
+//            text-align: center;
+//         }
+//     }
+
+
+// .footer-item {
+// &.link {
+//     @include font($lh:1.17);
+//     color: rgba(255, 255, 255, 0.6);
+
+  
+// }
+// }
+
+// .footer-item:not(:last-child) {
+//     margin-bottom: 9px;
+// }
+
+
+
+// .footer-link-adress:hover,
+// .footer-link-adress:focus {
+//     color: var(--accent-color);
+// }
+
+// .footer-link {
+//     @include font($fz:14px);
+//     font-style: normal;
+      
+//     color: var(--third-color-text);
+
+//     transition: color 250ms var(--timing-function);
+//     &:hover,
+//         &:focus {
+//             color: var(--accent-color);
+//         }
+// }
+
+// new version------------
+
+.footer {
+    background-color: #2F303A;
+    
+    // padding-top: 60px;
+    // padding-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+        text-align: start;
+        margin-bottom: 0;
+    }
+}
+
+.main-footer {
+    margin-left: auto;
+    margin-right: auto;
+    // margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    
+}
+
+.footer__logo {
+    @include font($fz: 26px, $lh: 1.19, $fw: 700);
+    color: var(--third-color-text);
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+
+
+    // &:hover,
+    // &:focus {
+    //   color: var(--accent-color);
+    // }
+}
+
+.footer-main-contacs {
+    margin-top: 20px;
+}
+
+.logo__label {
+    color: var(--accent-color);
+}
+
+.footer__adress {
+    @include font($lh: 1.7, $fw: 400);
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--third-color-text);
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__link {
+    @include font($lh: 1.71);
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer-main-contacts {
+    margin-top: 20px;
+}
+
+
+// .socials__footer {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-bottom: 60px;
+
+//     @media screen and (min-width: 1200px) {
+//         align-items: flex-start;
+//         margin-bottom: 0;
+//     }
+// }
+
+// .socials__caption {
+//     @include font();
+//     text-transform: uppercase;
+//     color: var(--third-color-text);
+
+// }
+
+// .socials__footer__list {
+//     display: flex;
+//     margin-top: 20px;
+// }
+
+// .socials__footer__item:not(:last-child) {
+//     margin-right: 10px;
+
+//     &:hover,
+//     :focus {
+//         background-color: var(--accent-color);
+//         border-radius: 50%;
+//     }
+// }
+
+// .socials__footer__link {
+//     display: block;
+//     width: 44px;
+//     height: 44px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 50%;
+//     background-color: rgba(255, 255, 255, 0.1);
+//     transition: background-color 250ms var(--timing-function);
+
+//     &:focus {
+//         background-color: var(--accent-color);
+//     }
+// }
+
+// .socials__footer__icon {
+//     fill: var(--third-color-text);
+// }
+
+
+
+
+
+// .third-footer {
+//     @include font($fz: 16px, $lh: 1.25, $fw: 400);
+//     background-color: #2F303A;
+
+//     @media screen and (min-width: 768px) and (max-width: 1199px) {
+//         margin-top: 60px;
+//     }
+
+//     &__form {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+
+//         @media screen and (min-width: 1200px) {
+//             align-items: flex-start;
+//         }
+//     }
+
+//     &__wrap {
+//         width: 100%;
+//         // тут виправлення
+//         margin-top: 20px;
+//         display: flex;
+//         // При 320px
+//         align-items: center;
+//         flex-direction: column;
+
+//         @media screen and (min-width: 1200px) {
+//             align-items: normal;
+//             flex-direction: row;
+//         }
+//     }
+
+//     &__input {
+//         // width: 450px; виправлення
+//         width: 100%;
+//         height: 50px;
+//         border-radius: 4px;
+//         background-color: inherit;
+//         border: 1px solid rgba(255, 255, 255, 0.3);
+//         margin-bottom: 20px;
+//         padding-left: 16px;
+
+//         @media screen and (min-width: 768px) {
+//             width: 450px;
+//         }
+
+//         @media screen and (min-width: 1200px) {
+//             width: 358px;
+//             margin-bottom: 0;
+//         }
+//     }
+// }
+
+// .second-footer__title {
+//     font-family: Roboto;
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-align: center;
+//     text-transform: uppercase;
+//     color: var(--third-color-text);
+
+// }
+
+// .footer-input input::placeholder {
+//     padding: 15px 16px;
+// }
+
+// .third-footer__button {
+//     @include font($fz: 16px, $lh: 1.85, $fw: 700, $ls: 0.06em);
+//     color: var(--third-color-text);
+//     background-color: var(--accent-color);
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     justify-content: center;
+//     width: 200px;
+//     height: 50px;
+//     border-radius: 4px;
+
+//     @media screen and (min-width: 1200px) {
+//         margin-left: 12px;
+//     }
+// }
+
+// .third-button__icon {
+//     fill: var(--third-color-text);
+//     margin-left: 10px;
+// }
+
+// // .footer-imput:not(:placeholder-shown):required:valid{
+// // color: var(--primary-white-color);
+// // }
+// // .footer-imput:not(:placeholder-shown):required:invalid{
+// // background-color: #2F303A;
+// // }
+
+// .container {
+//     width: 1200px;
+//     padding: 5px;
+//     margin-left: 0 auto;
+//     margin-right: 0 auto;
+// }
+
+// .test-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-left: -10px;
+//     margin-right: -10px;
+//     padding: 0;
+// }
+
+// .test-item {
+
+//     padding: 10px;
+//     margin-left: 10px;
+//     margin-right: 10px;
+//     flex-basis: calc((100% - 30px) /3);
+//     background-color: blue;
+//     outline: 1px solid tomato;
+
+//     &:not(:last-child) {
+//         margin-bottom: 20px;
+//     }
+// }

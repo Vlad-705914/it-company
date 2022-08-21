@@ -1,0 +1,110 @@
+.feature-list {
+  @media screen and(min-width:768px),
+    (max-width:1199px) {
+display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-right: -30px;
+  }
+       
+   
+}
+.feature-item {
+  @media screen and(min-width:768px){
+margin-bottom: 30px;
+  margin-right: 30px;
+  flex-basis: calc(100% / 2 - 30px);
+  }
+        @media screen and(min-width:1199px) {
+          flex-basis: calc(100% / 4 - 30px);
+    
+        }
+}
+
+
+              
+    
+ 
+
+
+.feature-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    // width: 270px;
+    width: 100%;
+    height: 110px;
+    border-radius: 4px;
+    background-color: #f4f5f4;
+    @media screen and(min-width:1199px) {
+     width: 270px; 
+    }
+   
+}
+
+
+// .feature-item:not(:last-child) {
+//     margin-right: 30px;
+// }
+
+.feature-title {
+  @include font($fw:700);
+    margin-top: 0;
+    margin-bottom: 10px;
+    // margin-left: 0 auto;
+    // margin-right: 0 auto;
+    text-align: center;
+
+    color: var(--primery-title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+// .feature-subtitle {
+//     margin-top: 0;
+//     margin-bottom: 24px;
+
+//     text-align: center;
+// }
+
+.feature-text {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    color: var(--main-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* .feature-item::before{
+  content: '';
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+ 
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position:center;
+
+} */
+/* .feature-item:nth-child(1)::before{
+background-image: url(./icon-svg/antenna\ 1\ \(2\).svg);
+
+}
+.feature-item:nth-child(2)::before {
+  background-image: url(./icon-svg/astronaut\ 1\ \(2\).svg);
+
+}
+.feature-item:nth-child(3)::before {
+  background-image: url(./icon-svg/clock\ 1\ \(3\).svg);
+
+}
+.feature-item:nth-child(4)::before {
+  background-image: url(./icon-svg/diagram\ 1\ \(2\).svg);
+
+} */
