@@ -1,7 +1,14 @@
-@mixin font($fw:400,$fz:14px,$lh:1.14,$ls:0.03em){
+@mixin font($fw:700,$fz:36px,$lh:1.47,$ls:0.1px){
     line-height: $lh;
     font-size: $fz;
     font-weight: $fw;
     letter-spacing: $ls;
+
+//     font-family: 'Montserrat';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 36px;
+// line-height: 53px;
+// text-align: center;
 } 
     

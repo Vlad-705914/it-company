@@ -371,6 +371,36 @@
 //         display: none;
 //     }
 // }
+.header{
+    outline: 1px solid blue; 
+    height: 100px;
+}
+.header-list{
+    display: flex;
+   width: 583px;
+   margin-left: 400px;
+   outline: 1px solid tomato;
+align-items: center;
+margin-left: 920px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.header-item{
+    // margin-bottom: 40px;
+    align-items: center;
+    margin-top: 40px;
+margin-bottom: 40px;
+}
+.header-limk{
+    @include font($fw:500,$fz:16px,$lh:1.25,$ls:0.1px);
+   
 
 
+
+color: var(--primary-title-color);
+}
+.header-item:not(:last-child){
+margin-right: 40px;
+}
 

@@ -15,5 +15,6 @@
     ".vscode/**"],
   "liveSassCompile.settings.generateMap": true,
   "liveServer.settings.port": 1237,
-  "liveSassCompile.settings.autoprefix": null
+  "liveSassCompile.settings.autoprefix": null,
+  "editor.fontSize": 18
 }

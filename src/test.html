@@ -25,7 +25,7 @@
   <body>
     
 
-    <div class="pag-header">
+    <!-- <div class="pag-header">
       <div class="containe">
         <nav class="navi">
           <a class="company-log">
@@ -100,7 +100,37 @@
         </main>
      
  <script>"js/modal.js"</script>
- <script>"js/mobile-menu.js"</script>
+ <script>"js/mobile-menu.js"</script> -->
+ 
+ <button class="buttons-open" data-open-modal>Open</button>
+<div class="backdrops is-hidden" data-backdrop>
+  
+  <div class="modals ">
+    <button class="buttons-modal" data-close-modal>Close</button>
+  </div>
+</div>
 
+ <script>
+  (() =>{
+  const refs = {
+    openModalBtn: document.querySelector("[data-open-modal]"),
+    closeModalBtn: document.querySelector("[data-close-modal]"),
+    backdrop: document.querySelector("[data-backdrop]"),
+  };
+
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+  reft.backdrop.addEventListener("click", logBackdropClick);
+
+  function toggleModal() {
+    refs.backdrop.classList.toggle("is-hidden");
+  }
+  function logBackdropClick() {
+    console.log("Это клик");
+  }
+  })();
+</script> 
+ <script src="js/mobile-menu.js"></script>
+ 
   </body>
 </html>
