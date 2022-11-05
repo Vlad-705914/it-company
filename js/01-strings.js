@@ -1,11 +1,13 @@
 // Длинная строка, свойство length
 // const message = 'В этой строке 26 символов.';
 
-// import { includes } from "lodash";
+
 
 // console.log(message.length);
 
 // Конкатенация строк 
+
+
 
 // const firstName = 'Chelsy';
 // const lastName = 'Emerald';
@@ -16,6 +18,8 @@
 // Напиши скрипт который выдает строку в формате:
 // " Гость х у поселяется в z номер   q " 
 // подставьте вместо x y z q значение переменных
+
+
 
 // const room = 716;
 // const type = 'VIP';
@@ -39,6 +43,14 @@
 
 // "Что ищем?"
 
+
+
+
+
+
+
+
+
 // Поиск в строке методом includes()
 // let brand = 'Samsung';
 // brand = brand.toLowerCase();
@@ -50,6 +62,9 @@
 // console.log(brand.slice(1).toLowerCase());//amsung-вырезает и приводит к регистру
 // brand = brand[0] + (brand.slice(1).toLowerCase());
 // console.log(brand);//Samsung
+
+
+
 
 
 // const blackListedWord1 = 'спам';

@@ -1,8 +1,8 @@
 // const { includes } = require("lodash");
 
-const logins = ['m4ngoDoge', 'Kiwidab3st', 'poly1scute',
-'aj4xth3n4n'];
-const loginToFind = 'poly1scute';
+// const logins = ['m4ngoDoge', 'Kiwidab3st', 'poly1scute',
+// 'aj4xth3n4n'];
+// const loginToFind = 'poly1scute';
 // let message = `Пользователь ${loginToFind} не найден`;
 // Начинаем с отрицания, если Пользователь не будет найден,
 // в консоли будет этот текст 
@@ -38,11 +38,19 @@ const loginToFind = 'poly1scute';
 
 
 // Метод includes
-console.log(logins.includes(loginToFind));// true
-// С его помощью перебираем массив,и возвращаем true , false.
-// делаем тернарник
-const message = logins.includes(loginToFind)? 
-`Пользователь ${loginToFind} найден`
- : `Пользователь ${loginToFind} не найден`;
-console.log(message);
+// console.log(logins.includes(loginToFind));// true
+// // С его помощью перебираем массив,и возвращаем true , false.
+// // делаем тернарник
+// const message = logins.includes(loginToFind)? 
+// `Пользователь ${loginToFind} найден`
+//  : `Пользователь ${loginToFind} не найден`;
+// console.log(message);
+
+
+
+
+
+
+
+
 

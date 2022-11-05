@@ -44,10 +44,35 @@
 // прибавить к total 
 
 // лог
-// const minSalary = 500;
-// const maxSalary = 5000;
-// const empoloyes = 5;
-// let totalSalary = 0;
+const minSalary = 500;
+const maxSalary = 5000;
+const empoloyes = 5;
+let totalSalary = 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // перебрать работников в цикле
 // for(let i = 0; i < empoloyes; i += 1){
 //     // сгенерить случайное зп.
@@ -64,9 +89,8 @@
 // Например, если mim = 0 и max = 5, то диапазон 0-5, в нем два четных числа
 // 2 и 4, их сумма 6.
 
-const min = 0;
-const max = 5;
-let total = 0;
+
+
 //  for (let i = min; min <= max; i += 1) {
 //     if( i % 2 !== 0);
 //     console.log('Не четное', i);
@@ -92,21 +116,21 @@ let total = 0;
 
 //for от min до  max c шагом 1
 
-for(let i = min; i<= max; i += 1){
+// for(let i = min; i<= max; i += 1){
         
-    console.log(i);
-// проверяем остаток от деления 
-    if(i % 2 !== 0){// если это нечетное число, пропускаем
-        console.log(' не четное', i);
-        continue;// продолжаем и выполняем весь код после
-}
- console.log('четное', i);// т.е. этот код
-      // пишем в сумму
-   total += i;
-}
+//     console.log(i);
+// // проверяем остаток от деления 
+//     if(i % 2 !== 0){// если это нечетное число, пропускаем
+//         console.log(' не четное', i);
+//         continue;// продолжаем и выполняем весь код после
+// }
+//  console.log('четное', i);// т.е. этот код
+//       // пишем в сумму
+//    total += i;
+// }
 
 
-console.log('total:', total);
+// console.log('total:', total);
 
 // Напиши скрипт обработки покупки в магазине
 

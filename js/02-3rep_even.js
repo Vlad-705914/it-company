@@ -31,17 +31,41 @@ let total = 0;
 
 // Метод от обратного
 
-for(const number of numbers){
-    console.log(number);
-    if(number % 2 !== 0 ){
+// for(const number of numbers){
+//     console.log(number);
+//     if(number % 2 !== 0 ){
         
-        console.log('Эту итерацию пропускаем', number);
-        continue;
-    // Если четное плюсуем к тотал
+//         console.log('Эту итерацию пропускаем', number);
+//         continue;
+//     // Если четное плюсуем к тотал
        
-    }
-    console.log('Четное!!!!');
-    total += number;
-}
+//     }
+//     console.log('Четное!!!!');
+//     total += number;
+// }
 
-console.log('Total:', total);
+// console.log('Total:', total);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+);

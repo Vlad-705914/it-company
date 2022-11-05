@@ -148,18 +148,18 @@
 // console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
 // # 32
 
-// function includes(array, value) {
-//   // Change code below this line
-// for( let i = 0; i < array.length; i += 1){
-//  if(array[i] === value){
-//   return true;
-// }
-// }
-//   return false; 
-//   // Change code above this line
-// }
-// console.log(([1, 2, 3, 4, 5], 3));
-// console.log(includes([1, 2, 3, 4, 5], 17));
+function includes(array, value) {
+  // Change code below this line
+for( let i = 0; i < array.length; i += 1){
+ if(array[i] === value){
+  return true;
+}
+}
+  return false; 
+  // Change code above this line
+}
+console.log(includes([1, 2, 3, 4, 5], 3));
+console.log(includes([1, 2, 3, 4, 5], 17));
 
 // function calculateTotalPrice(order) {
 //   let total = 0;

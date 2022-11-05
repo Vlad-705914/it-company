@@ -10,8 +10,41 @@
 
 // Если пользователь pro or vip, тогда есть доступ. 
 
-const canAccesContent = sub === 'pro' || sub === 'vip';
-// true || false => true
-// false || true => true
-// false || false => false
-console.log(`Есть доступ к контакту`, canAccesContent)
+// const canAccesContent = sub === 'pro' || sub === 'vip';
+// // true || false => true
+// // false || true => true
+// // false || false => false
+// console.log(`Есть доступ к контакту`, canAccesContent)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const sub = 'pro';
+// const sub = 'vip';
+const sub = 'free';
+
+const yes = sub === 'pro'|| sub === 'vip';
+
+console.log(`Есть доступ`, yes);

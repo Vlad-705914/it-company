@@ -16,7 +16,7 @@
 
 
 
-// Удаление по индексу
+// // Удаление по индексу
 
 // const cardToRemove =   'Карточка-3';
 // const index = cards.indexOf(cardToRemove);
@@ -54,14 +54,21 @@
 
 
 
-const string = "javascript";
+// const string = "javascript";
 
-for (const character of string) {
-  console.log(character);
-}
+// for (const character of string) {
+//   console.log(character);
+// }
 
 
 
+
+const cards = ['Card1', 'Card2', 'Card3', 'Card4', 'Card5',];
+
+const cardsIndex = 'Card3';
+
+ const index = cards.indexOf(cardsIndex);
+console.table(index);
 
 
 

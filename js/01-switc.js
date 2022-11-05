@@ -103,4 +103,21 @@
 // console.log(message);
 
 
+const stars = 40;
+let message = '';
 
+switch(stars){
+    case 40 :
+        message = 'Вам перезвонит мененджер';
+        break;
+        case 2 :
+            message : "Курьер доставит посылку с 18 до 20 часов";
+            break;
+            case 3:
+                message = 'Ваша посылка доставлена';
+                break;
+
+                default:
+                    message = ' У вас ничего нет';
+}
+console.log(message);

@@ -117,9 +117,4 @@
 
 // Будем заполнять номера в отеле пока текущее кол-во клиентов
 // не будет равно макс. допустимому.
-let clientCounter = 26;
-const maxClients = 25;
-while( clientCounter < maxClients){
-  console.log('Номера есть'); 
-}
-console.log( 'no');
+

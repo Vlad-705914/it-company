@@ -1,11 +1,10 @@
 // Парс числа с Number.parseInt() and Number.parseFloat()
 
-// import { random } from "lodash";
 
 // let elementWidth = '50px';
 // elementWidth = Number.parseInt(elementWidth);
 // // const result = Number.parseInt(elementWidth);
-// console.log(' elementWidth',  elementWidth);
+// console.log(' elementWidt)h',  elementWidth);
 
 // let elementHeight = '200.74px';
 // elementHeight = Number.parseFloat(elementHeight);
@@ -102,5 +101,30 @@
 // for (const character of string) {
 //   console.log(character);
 // }
-const clients = ["Mango", "Ajax", "Poly"];
-console.log(clients.slice(-2)); 
+// const clients = ["Mango", "Ajax", "Poly"];
+// 
+
+
+function checkForSpam(message) {
+    let  result  ;
+    // Change code below this line
+  if(message.includes(SalE)){
+    result = false;
+  }
+ 
+    // Change code above this line
+    return result;
+  }
+
+
+
+console.log(checkForSpam("Latest technology news"));
+console.log(checkForSpam("JavaScript weekly newsletter"));
+console.log(checkForSpam("Get best sale offers now!"));
+console.log(checkForSpam("Amazing SalE, only tonight!"));
+// console.log();
+// console.log();
+// console.log();
+
+
+ 

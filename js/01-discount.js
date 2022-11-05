@@ -66,7 +66,6 @@
 
 
 
-
 // const totalSpent = 50;
 // let payment = 500;
 // let discount = 0;

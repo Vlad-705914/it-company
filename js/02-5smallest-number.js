@@ -12,18 +12,23 @@ let smallestNumber = numbers[0] ;
 // Дальше достаем по одной и сравниваем в первой
 
 for (const number of numbers){
-//    console.log(number);
+   console.log(number);
 //    Если монетка меньше , той которую мы достали первой(51)
 //    то на данной итерации это и есть самая маленькая, и так до
 //    конца перебора
 
-// if(number < smallestNumber){
-//     smallestNumber = number;
+if(number < smallestNumber){
+    // smallestNumber = number;
 
 // Находим самую большую монетку
 
 if(number > smallestNumber){
-        smallestNumber = number;
+        // smallestNumber = number;
 } 
 }
-console.log( 'smallestNumber:',smallestNumber);
+// console.log( 'smallestNumber:',smallestNumber);
+}
+
+
+
+

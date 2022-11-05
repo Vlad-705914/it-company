@@ -14,3 +14,9 @@
 //  const canOpenchat = isOnline && isFriend && !isDnd ;
 // console.log(`Можно открыть чат?`, canOpenchat);// true
 
+const isOnline = true;
+const isFriend = true;
+const isDnd = false;
+
+const canOpenchat = isOnline && isFriend && !isDnd ;
+console.log('Можно открыть чат',canOpenchat );

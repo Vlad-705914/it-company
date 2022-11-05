@@ -6,7 +6,7 @@
 // Пусть элементы массива в строке будут разделены запятой
 // сначала через фор, потом через join
 
-const friends = ['Mango', 'Polly','Kiwi', 'Ajax'];
+// const friends = ['Mango', 'Polly','Kiwi', 'Ajax'];
 // let string = '';
 
 // for(const friend of friends){
@@ -17,5 +17,12 @@ const friends = ['Mango', 'Polly','Kiwi', 'Ajax'];
 
 // Метод join-возьми массив и сшей его
 
-const string = friends.join(', ');
-console.log(string);
+// const string = friends.join(', ');
+// console.log(string);
+// Напиши скрипт который объединяет все элементы массива в
+// одно строковое значение.
+// Элементов может быть произвольное число
+// Пусть элементы массива в строке будут разделены запятой
+// сначала через фор, потом через join
+
+
